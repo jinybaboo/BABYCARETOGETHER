@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "BABYCARETOGETHER",
+    "slug": "BABYCARETOGETHER",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "BABYCARETOGETHER"
+}
