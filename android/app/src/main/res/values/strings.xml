@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">BABYCARETOGETHER</string>
+    <string name="app_name">육아동기</string>
+    <string name="kakao_app_key">981a442f40c3aa0bb41ae816b5e4b498</string>
 </resources>

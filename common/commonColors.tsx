@@ -1,0 +1,21 @@
+const colors = {
+    logoRed:'#E30613',
+    logoGreen:'#00983A',
+    logoBlue:'#009FE3',
+    logoOrange:'#EA6E24',
+    logoPurple:'#312783',
+    logoRedOpacity:'rgba(227,6,19, 0.3)',
+    logoGreenOpacity:'rgba(0,152,58, 0.3)',
+    logoBlueOpacity:'rgba(0,159,227, 0.3)',
+    logoOrangeOpacity:'rgba(234,110,36, 0.3)',
+    logoPurpleOpacity:'rgba(49,39,131, 0.3)',
+    textBlack:'#222222',
+    textGray:'#9f9f9f',
+    textLightGray:'#b9b9b9',
+    backgroundLightGray:'#f6f6f6',
+    backgroundLightGray2:'#f9f8f8',
+    underlineGray :'#E2E2E2',
+    underlineGray2 :'#F2F2F2',
+    textInputBackground:'#FFF5EF',
+}
+export default colors;

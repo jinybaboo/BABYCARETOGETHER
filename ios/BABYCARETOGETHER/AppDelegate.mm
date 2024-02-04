@@ -1,4 +1,10 @@
+#import <Firebase.h>
 #import "AppDelegate.h"
+#import <RNKakaoLogins.h>
+
+
+
+
 
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
@@ -33,6 +39,8 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [FIRApp configure];
+  
   RCTAppSetupPrepareApp(application);
 
   RCTBridge *bridge = [self.reactDelegate createBridgeWithDelegate:self launchOptions:launchOptions];
@@ -97,6 +105,11 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 // Linking API
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+  
+  if([RNKakaoLogins isKakaoTalkLoginUrl:url]) {
+    return [RNKakaoLogins handleOpenUrl: url];
+  }
+  
   return [super application:application openURL:url options:options] || [RCTLinkingManager application:application openURL:url options:options];
 }
 
@@ -123,6 +136,8 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 {
   return [super application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
 }
+
+
 
 #if RCT_NEW_ARCH_ENABLED
 

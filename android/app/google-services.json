@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "592530437547",
+    "project_id": "babycarethgether",
+    "storage_bucket": "babycarethgether.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592530437547:android:82f2dd53baf6bc3023ceee",
+        "android_client_info": {
+          "package_name": "com.babycaretogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592530437547-jg58c2snrrqa7a3k66kb9fah5n93ob48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babycaretogether",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "592530437547-qckbplsncsk68bgfoprc5jpqdklroee3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqXz7qTL2vaR93ynaLYkbAj4_cq3fhDms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592530437547-qckbplsncsk68bgfoprc5jpqdklroee3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
